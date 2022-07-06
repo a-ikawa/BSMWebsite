@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+}
+
+.table {
+    border: 2px black solid;
+    border-collapse: collapse;
+    margin: 50px 100px;
+    justify-content: center;
+    width: 90%;
+    padding: 100px 200px; 
+}
+
+tr, td {
+    border: 1px black solid; 
+}
+
+td{
+    width: 600px; 
+}
+
+h4 {
+    text-align: center; 
+}
+
+.container {
+    display: grid; 
+    height: 400px; 
+    width: 900px; 
+    grid-template-rows: 300px 300px 300px; 
+    background-color: aqua; 
+}
+
+.col {
+    background-color: greenyellow;
+    margin: 40px 70px; 
+    text-align: center;
+}
+
+.form{
+    /* justify-content: center; */
+    text-align: center;  
+}
+
+label {
+    text-align: left;
+    white-space: pre-wrap;  
+}
+
+#submit {
+    margin-top: 10px; 
+}
